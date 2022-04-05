@@ -9,7 +9,7 @@
       v-model="query"
       @keypress="fetchWeather"
       >
-    </div>
+    </div> 
 
       <div class="weather-wrap" v-if="typeof weather.main != 'undefined'"> 
         <div class="location-box">
